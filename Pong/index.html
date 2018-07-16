@@ -1,0 +1,22 @@
+<html>
+<head>
+<link type="text/css" rel="stylesheet" href="CSSmain.css" />;
+<title> Menu </title>
+<script src="https://simplycodingcourses.com/files/simplyjs/simply.js"></script>
+<script>
+function start(){
+	//Play Button
+sjs.open("MenuBorder",400,300);
+var playButton = new sjs.Button("PLAY", function(){
+	window.location = "Pong.html";
+});
+playButton.center();
+} //end start
+</script>
+</head>
+<body onload="start()">
+	<div id = "MenuBorder">
+		<h1 id = "TextPosition"> PONG </h1>
+	</div>
+</body>
+</html>
